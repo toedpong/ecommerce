@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{0FDEF9DF-F9B3-450A-8FC8-EDBFC7ADBEC1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ecom/Startup.cs">
+    <Files>
+      <File FileName="ecom/Startup.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ecom" expanded="True">
+            <Node name="Solution Items" expanded="True" />
+            <Node name="ecom" expanded="True">
+              <Node name="client-app" expanded="True">
+                <Node name="pages" expanded="True" />
+                <Node name="services" expanded="True" />
+              </Node>
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ecom PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

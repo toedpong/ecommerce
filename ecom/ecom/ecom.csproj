@@ -44,6 +44,56 @@
     <Folder Include="Repositories\" />
     <Folder Include="Repositories\Interfaces\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="client-app\package.json" />
+    <None Include="client-app\.nuxt\empty.js" />
+    <None Include="client-app\.nuxt\client.js" />
+    <None Include="client-app\.nuxt\chakra.js" />
+    <None Include="client-app\.nuxt\server.js" />
+    <None Include="client-app\.nuxt\index.js" />
+    <None Include="client-app\.nuxt\emotion.js" />
+    <None Include="client-app\.nuxt\router.js" />
+    <None Include="client-app\.nuxt\middleware.js" />
+    <None Include="client-app\.nuxt\loading.html" />
+    <None Include="client-app\.nuxt\utils.js" />
+    <None Include="client-app\.nuxt\router.scrollBehavior.js" />
+    <None Include="client-app\.nuxt\jsonp.js" />
+    <None Include="client-app\.nuxt\App.js" />
+    <None Include="client-app\.nuxt\routes.json" />
+    <None Include="client-app\.nuxt\mixins\fetch.server.js" />
+    <None Include="client-app\.nuxt\mixins\fetch.client.js" />
+    <None Include="client-app\.nuxt\components\nuxt.js" />
+    <None Include="client-app\.nuxt\components\nuxt-child.js" />
+    <None Include="client-app\.nuxt\components\nuxt-loading.vue" />
+    <None Include="client-app\.nuxt\components\index.js" />
+    <None Include="client-app\.nuxt\components\nuxt-error.vue" />
+    <None Include="client-app\.nuxt\components\readme.md" />
+    <None Include="client-app\.nuxt\components\nuxt-build-indicator.vue" />
+    <None Include="client-app\.nuxt\components\nuxt-link.server.js" />
+    <None Include="client-app\.nuxt\components\plugin.js" />
+    <None Include="client-app\.nuxt\components\nuxt-link.client.js" />
+    <None Include="client-app\.nuxt\views\app.template.html" />
+    <None Include="client-app\.nuxt\views\error.html" />
+    <None Include="client-app\.nuxt\vetur\tags.json" />
+    <None Include="client-app\.git\config" />
+    <None Include="client-app\.git\HEAD" />
+    <None Include="client-app\.git\description" />
+    <None Include="client-app\.git\FETCH_HEAD" />
+    <None Include="client-app\.git\info\exclude" />
+    <None Include="client-app\.git\hooks\commit-msg.sample" />
+    <None Include="client-app\.git\hooks\pre-rebase.sample" />
+    <None Include="client-app\.git\hooks\pre-commit.sample" />
+    <None Include="client-app\.git\hooks\applypatch-msg.sample" />
+    <None Include="client-app\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="client-app\.git\hooks\pre-receive.sample" />
+    <None Include="client-app\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="client-app\.git\hooks\post-update.sample" />
+    <None Include="client-app\.git\hooks\pre-merge-commit.sample" />
+    <None Include="client-app\.git\hooks\pre-applypatch.sample" />
+    <None Include="client-app\.git\hooks\pre-push.sample" />
+    <None Include="client-app\.git\hooks\update.sample" />
+    <None Include="client-app\.git\hooks\push-to-checkout.sample" />
+  </ItemGroup>
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->
     <Exec Command="node --version" ContinueOnError="true">
